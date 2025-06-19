@@ -1,0 +1,34 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+.venv/
+env/
+.env/
+.python-version
+.pytest_cache/
+
+# Django specific
+db.sqlite3
+/media/
+/static_collected/
+*.log
+local_settings.py
+.DS_Store # macOS specific
+.vscode/ # VS Code specific, if you want to ignore editor settings
+*.egg-info/
+
+# Development specific
+# Eğer kullanıyorsan, IDE dosyalarını buraya ekleyebilirsin.
+# Örn: PyCharm için:
+# .idea/
+
+# Dotenv files (Environment variables)
+.env
+.flaskenv
+
+# OS generated files
+.DS_Store
+.Trashes
+ehthumbs.db
+Thumbs.db
